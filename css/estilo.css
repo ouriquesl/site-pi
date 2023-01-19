@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+body{
+	background-color: black;
+}
+.header{
+	background: url(../img/vector-AUG-2020-33.jpg) repeat-x;
+	height: 100px;
+	font-family: 'Rowdies';
+}
+.cor-nav{
+	background-color: #fefa01;
+}
+
+
+.nome h1{
+	color: #FE8401;
+	font-family: 'Rowdies';
+	color: black;
+}
+
+.col-md-3{
+	background-color: ;
+	width: 25%;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px #777;
+	transition: 0.1s;
+
+}
+.col-md-3:hover{
+	box-shadow: 0 8px 16px #777;
+}
+.card-content{
+	padding: px;
+}
+.card-content{
+	text-align:center;
+
+
+}
+
+.footer{
+	background: url(../img/vector-AUG-2020-33.jpg) repeat-x;
+	height:50px;
+	font-family: 'Rowdies';
+	font-size: 0.5rem;
+
+}
+.footer a{
+	text-decoration: none;
+	color: rgb(46, 44, 44);
+}
+
+
+/*avaliações*/
+
+
+.column {
+	float: left;
+	padding: 10px;
+  }
+  
+
+  .column.lateral {
+	margin: 10px;
+	width: 20%;
+  }
+  .column.lateral h3, h6{
+	font-family: 'rowdies';
+	color: #fefa01;
+  }
+  .column.lateral p{
+	color: white;
+  }
+  
+
+  .column.meio {
+	width: 50%;
+	font-family: 'rowdies';
+	color: #fefa01;
+  }
+  
+
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  .genero button{
+		background-color: #fefa01;
+		border: none;
+		color: black;
+		padding: 10px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 2px 1px;
+		cursor: pointer;
+		border-radius: 50%;
+  }
+
+  .sinopse{
+	padding: 10px;
+  }
+  .sinopse h3{
+	padding: 5px;
+	color: white;
+	border-left-style: solid;
+	border-left-color: #fefa01;
+	font-family: 'rowdies';
+  }
+  .sinopse p{
+	padding: 5px;
+	color: rgba(255, 255, 255, 0.856);
+	border-left-style: solid;
+	border-left-color: #fefa01;
+	text-align: justify;
+	font-family: '';
+
+  }
+
+  .lado img{
+	width: 100px;
+  }
+
+
