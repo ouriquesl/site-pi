@@ -2,10 +2,16 @@
 body{
 	background-color: black;
 }
-.header{
+/*.header{
 	background: url(../img/vector-AUG-2020-33.jpg) repeat-x;
 	height: 100px;
 	font-family: 'Rowdies';
+}*/
+.bg-header{
+	background: url(../img/vector-AUG-2020-33.png) repeat-x;
+	font-family: 'Rowdies';
+	width: 100%;
+	height: 150px;
 }
 .cor-nav{
 	background-color: #fefa01;
@@ -92,14 +98,14 @@ body{
 		background-color: #fefa01;
 		border: none;
 		color: black;
-		padding: 10px;
+		padding: 5px;
 		text-align: center;
 		text-decoration: none;
 		display: inline-block;
 		font-size: 16px;
 		margin: 2px 1px;
 		cursor: pointer;
-		border-radius: 50%;
+		border-radius: 6px;
   }
 
   .sinopse{
@@ -124,6 +130,9 @@ body{
 
   .lado img{
 	width: 100px;
+  }
+  .column.lateral.lado p{
+	text-align: justify;
   }
 
 
